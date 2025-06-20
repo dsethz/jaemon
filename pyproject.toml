@@ -4,6 +4,10 @@ version = "0.1.0"
 description = "Background job alert service"
 authors = ["Daniel Schirmacher <dschirethz@gmail.com>"]
 
+[tool.poetry.scripts]
+jaemon = "jaemon.cli:main"
+jaemon-scheduler = "jaemon.scheduler:main"
+
 [tool.poetry.dependencies]
 python = "^3.8"
 requests = "*"
