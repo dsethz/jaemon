@@ -1,4 +1,3 @@
-````markdown
 # jaemon
 
 A lightweight Python CLI and background service that scans specified job search URLs daily and notifies you via email when new postings appear — installable via `pip install .`.
@@ -22,7 +21,7 @@ cd jaemon
 pip install .
 # or in editable/dev mode:
 pip install -e .[dev]
-````
+```
 
 ## Configuration
 
@@ -86,7 +85,3 @@ jaemon/
 ├── .ruff.toml               # ruff configuration
 └── README.md                # this file
 ```
-
-```
-```
-
