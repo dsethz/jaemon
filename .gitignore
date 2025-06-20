@@ -1,5 +1,5 @@
 # Config containing secrets
-config.yaml
+jaemon/config.yaml.example
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

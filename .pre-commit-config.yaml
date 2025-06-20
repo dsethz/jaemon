@@ -1,0 +1,15 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 23.3.0
+    hooks:
+      - id: black            # code formatting
+        language_version: python3
+  - repo: https://github.com/pycqa/ruff
+    rev: "*"
+    hooks:
+      - id: ruff             # linting & auto-fix
+        args: ["--fix"]
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.10.1
+    hooks:
+      - id: isort            # import sorting
