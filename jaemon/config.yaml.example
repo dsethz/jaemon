@@ -1,0 +1,9 @@
+searches:
+  - https://www.indeed.com/jobs?q=python+remote&l=Zurich
+email:
+  smtp_server: smtp.example.com
+  smtp_port: 587
+  username: you@example.com
+  password: supersecret
+  from_addr: you@example.com
+  to_addr: you@personal.com

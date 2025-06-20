@@ -15,12 +15,8 @@ beautifulsoup4 = "*"
 apscheduler = "*"
 PyYAML = "*"
 
-[tool.poetry.dev-dependencies]
-pytest = "*"
-pre-commit = "*"
-ruff = "*"
-black = "*"
-isort = "*"
+[tool.poetry.extras]
+dev = ["pytest", "pre-commit", "ruff", "black", "isort"]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
